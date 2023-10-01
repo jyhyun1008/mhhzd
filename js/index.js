@@ -1,5 +1,5 @@
 let userName = 'jyhyun1008';
-let repoName = 'cyworld-style';
+let repoName = 'mhhzd';
 
 let vh = window.innerHeight * 0.01;
 let vw = window.innerWidth * 0.01;
