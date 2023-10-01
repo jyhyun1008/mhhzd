@@ -81,8 +81,14 @@ img {
     margin-bottom: 10px;
 }
 
-#profileUName {
+#profileUName, #profileUBio {
     margin-bottom: 5px;
+}
+
+#profileULink > a {
+    font-size: 1.2rem;
+    color: #000;
+    text-decoration: none;
 }
 
 #post {
