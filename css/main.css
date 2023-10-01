@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'NanumSquareRound';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --accent: #86E3CE;
+    --darkaccent: #058B8C;
+    --lightgrey: #f6f6f6;
+}
+
+body {
+    font-family: 'NanumSquareRound';
+    background-color: grey;
+    background-size: 20px 20px;
+    background-image:
+      linear-gradient(to right, lightgrey 1px, transparent 1px),
+      linear-gradient(to bottom, lightgrey 1px, transparent 1px);
+}
+
+#root {
+    width: 95%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 10px 30px;
+    background-color: var(--accent);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-bottom: 5px;
+}
+
+.title > a {
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.footer {
+    margin-top: 5px;
+    font-size: 0.8rem;
+    color: var(--darkaccent);
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    max-height: 640px;
+}
+
+.whitebg {
+    padding: 10px;
+    background-color: var(--lightgrey);
+    border-radius: 17.5px;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid var(--darkaccent);
+}
+
+#profile {
+    background-color: #fff;
+    border-radius: 15px;
+    min-width: 200px;
+    width: 200px;
+    padding: 10px;
+    border: 1px solid var(--darkaccent);
+}
+
+#profile > img {
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#profileUName {
+    margin-bottom: 5px;
+}
+
+#post {
+    background-color: #fff;
+    border-radius: 15px;
+    overflow-y:auto;
+    margin-left: 10px;
+    min-width: calc(1000px - 200px - 100px - 60px);
+    padding: 10px;
+    border: 1px solid var(--darkaccent);
+}
+
+.nav {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    min-width: 100px;
+    width: 100px;
+}
+
+.nav > div {
+    background-color: var(--darkaccent);
+    margin-left: -11px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 0 15px 15px 0;
+}
+
+.nav > div > a {
+
+    color: #fff;
+    text-decoration: none;
+}
+
+.page_title {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.line {
+    text-align: center;
+    color: grey;
+}
