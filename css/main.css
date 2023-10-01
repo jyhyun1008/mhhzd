@@ -20,6 +20,10 @@ body {
       linear-gradient(to bottom, lightgrey 1px, transparent 1px);
 }
 
+img {
+    border-radius: 10px;
+}
+
 #root {
     width: 95%;
     max-width: 1000px;
@@ -74,7 +78,6 @@ body {
 
 #profile > img {
     width: 100%;
-    border-radius: 20px;
     margin-bottom: 10px;
 }
 
