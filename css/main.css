@@ -24,6 +24,13 @@ img {
     border-radius: 10px;
 }
 
+.youtube {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
 #root {
     width: 95%;
     max-width: 1000px;
