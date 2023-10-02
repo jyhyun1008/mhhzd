@@ -138,5 +138,5 @@ img {
 
 .line {
     text-align: center;
-    color: grey;
+    color: var(--accent);
 }
